@@ -1,4 +1,4 @@
-import { capitalize } from "./utils";
+import { capitalize } from "./utils.js";
 
 export function getResult(p1, p2) {
     if(RPSChoices[p1.objectName] && RPSChoices[p1.objectName][p2.objectName]) {
